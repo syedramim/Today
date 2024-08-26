@@ -7,12 +7,8 @@
 
 import SwiftUI
 
-struct SigNegSM: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension Font {
+    static func Signika(_ size: CGFloat = 20) -> Font {
+        return Font.custom("SignikaNegative-SemiBold", size: size)
     }
-}
-
-#Preview {
-    SigNegSM()
 }

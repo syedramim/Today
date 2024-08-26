@@ -11,6 +11,10 @@
 		981CC3F12C7CE526007C4924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CC3F02C7CE526007C4924 /* ContentView.swift */; };
 		981CC3F32C7CE527007C4924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981CC3F22C7CE527007C4924 /* Assets.xcassets */; };
 		981CC3F62C7CE527007C4924 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981CC3F52C7CE527007C4924 /* Preview Assets.xcassets */; };
+		981CC3FE2C7CE605007C4924 /* SignikaNegative-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 981CC3FD2C7CE605007C4924 /* SignikaNegative-SemiBold.ttf */; };
+		981CC4032C7CE6A9007C4924 /* SigNegSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CC4022C7CE6A9007C4924 /* SigNegSM.swift */; };
+		981CC4082C7D2348007C4924 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CC4072C7D2348007C4924 /* Day.swift */; };
+		981CC40A2C7D26B0007C4924 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CC4092C7D26B0007C4924 /* DayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		981CC3F02C7CE526007C4924 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		981CC3F22C7CE527007C4924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981CC3F52C7CE527007C4924 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		981CC3FD2C7CE605007C4924 /* SignikaNegative-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignikaNegative-SemiBold.ttf"; sourceTree = "<group>"; };
+		981CC3FF2C7CE648007C4924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		981CC4022C7CE6A9007C4924 /* SigNegSM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigNegSM.swift; sourceTree = "<group>"; };
+		981CC4072C7D2348007C4924 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		981CC4092C7D26B0007C4924 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,11 @@
 		981CC3ED2C7CE526007C4924 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				981CC4062C7D202F007C4924 /* ViewModels */,
+				981CC4052C7D2023007C4924 /* Views */,
+				981CC4042C7D2017007C4924 /* Models */,
+				981CC3FF2C7CE648007C4924 /* Info.plist */,
+				981CC3FC2C7CE581007C4924 /* Font */,
 				981CC3EE2C7CE526007C4924 /* TodayApp.swift */,
 				981CC3F02C7CE526007C4924 /* ContentView.swift */,
 				981CC3F22C7CE527007C4924 /* Assets.xcassets */,
@@ -65,6 +79,38 @@
 				981CC3F52C7CE527007C4924 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		981CC3FC2C7CE581007C4924 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				981CC3FD2C7CE605007C4924 /* SignikaNegative-SemiBold.ttf */,
+				981CC4022C7CE6A9007C4924 /* SigNegSM.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		981CC4042C7D2017007C4924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				981CC4072C7D2348007C4924 /* Day.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		981CC4052C7D2023007C4924 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		981CC4062C7D202F007C4924 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				981CC4092C7D26B0007C4924 /* DayViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981CC3F62C7CE527007C4924 /* Preview Assets.xcassets in Resources */,
+				981CC3FE2C7CE605007C4924 /* SignikaNegative-SemiBold.ttf in Resources */,
 				981CC3F32C7CE527007C4924 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				981CC3F12C7CE526007C4924 /* ContentView.swift in Sources */,
+				981CC4032C7CE6A9007C4924 /* SigNegSM.swift in Sources */,
+				981CC40A2C7D26B0007C4924 /* DayViewModel.swift in Sources */,
+				981CC4082C7D2348007C4924 /* Day.swift in Sources */,
 				981CC3EF2C7CE526007C4924 /* TodayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +325,7 @@
 				DEVELOPMENT_TEAM = 58DF73FN4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +355,7 @@
 				DEVELOPMENT_TEAM = 58DF73FN4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
